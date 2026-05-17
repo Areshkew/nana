@@ -6,7 +6,7 @@
 
 **Cross-platform terminal multiplexer, IDE, and VCS client.**
 
-A port of [Muxy](https://github.com/jasonkneen/muxy) built with Electron.
+A port of [Muxy](https://github.com/muxy-app/muxy) built with Electron.
 
 [![Platform: Windows](https://img.shields.io/badge/Windows-0078D4?logo=windows11&logoColor=white)](#)
 [![Platform: Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)](#)
@@ -133,6 +133,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 <div align="center">
 
-*Ported from [Muxy](https://github.com/jasonkneen/muxy) by [Areshk](https://github.com/Areshk)*
+*Ported from [Muxy](https://github.com/muxy-app/muxy) by [Areshk](https://github.com/Areshk)*
 
 </div>
