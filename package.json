@@ -1,0 +1,103 @@
+{
+  "name": "nana",
+  "private": true,
+  "version": "0.1.0",
+  "author": "Areshk",
+  "main": "dist-electron/main/main.js",
+  "scripts": {
+    "dev": "vite",
+    "prebuild:icon": "node -e \"const fs=require('fs');fs.mkdirSync('build',{recursive:true});fs.copyFileSync('public/icon.png','build/icon.png')\" && node scripts/generate-ico.mjs",
+    "build": "npm run prebuild:icon && tsc && vite build && electron-builder",
+    "lint": "eslint -c eslint.config.mjs .",
+    "preview": "vite preview",
+    "test": "vitest run && vitest run --config electron/vitest.config.ts"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.10.3",
+    "@codemirror/lang-cpp": "^6.0.3",
+    "@codemirror/lang-css": "^6.3.1",
+    "@codemirror/lang-go": "^6.0.1",
+    "@codemirror/lang-html": "^6.4.11",
+    "@codemirror/lang-java": "^6.0.2",
+    "@codemirror/lang-javascript": "^6.2.5",
+    "@codemirror/lang-json": "^6.0.2",
+    "@codemirror/lang-lezer": "^6.0.2",
+    "@codemirror/lang-markdown": "^6.5.0",
+    "@codemirror/lang-php": "^6.0.2",
+    "@codemirror/lang-python": "^6.2.1",
+    "@codemirror/lang-rust": "^6.0.2",
+    "@codemirror/lang-sql": "^6.10.0",
+    "@codemirror/lang-vue": "^0.1.3",
+    "@codemirror/lang-wast": "^6.0.2",
+    "@codemirror/lang-xml": "^6.1.0",
+    "@codemirror/lang-yaml": "^6.1.3",
+    "@codemirror/language": "^6.12.3",
+    "@codemirror/search": "^6.7.0",
+    "@codemirror/state": "^6.6.0",
+    "@codemirror/view": "^6.42.0",
+    "@dnd-kit/react": "^0.4.0",
+    "@lezer/highlight": "^1.2.3",
+    "@tanstack/react-virtual": "^3.13.24",
+    "@xterm/addon-canvas": "^0.7.0",
+    "@xterm/addon-clipboard": "^0.2.0",
+    "@xterm/addon-search": "^0.15.0",
+    "@xterm/addon-serialize": "^0.14.0",
+    "chokidar": "^5.0.0",
+    "clsx": "^2.1.0",
+    "highlight.js": "^11.11.1",
+    "lucide-react": "^1.0.0",
+    "node-pty": "^1.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-resizable-panels": "^2.1.0",
+    "tailwind-merge": "^3.0.0",
+    "xterm": "^5.3.0",
+    "xterm-addon-fit": "^0.8.0",
+    "xterm-addon-web-links": "^0.9.0",
+    "xterm-addon-webgl": "^0.16.0",
+    "zod": "^4.0.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.4",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "electron": "^41.0.0",
+    "electron-builder": "^26.0.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.0",
+    "postcss": "^8.4.0",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^6.0.0",
+    "typescript-eslint": "^8.59.1",
+    "vite": "^6.0.0",
+    "vite-plugin-electron": "^0.29.0",
+    "vite-plugin-electron-renderer": "^0.14.7",
+    "vitest": "^4.1.5"
+  },
+  "build": {
+    "appId": "com.areshk.nana",
+    "productName": "Nana",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "dist-electron/**/*",
+      "out/**/*"
+    ],
+    "win": {
+      "icon": "build/icon.ico",
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}
