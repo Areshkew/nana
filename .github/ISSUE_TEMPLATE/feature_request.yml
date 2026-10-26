@@ -1,0 +1,20 @@
+name: Feature request
+description: Suggest something Nana should do.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What do you want to do?
+      description: The task or problem, not only the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How should it work?
+  - type: textarea
+    id: other
+    attributes:
+      label: Anything else
+      description: Workarounds you use today, or other apps that do this well.

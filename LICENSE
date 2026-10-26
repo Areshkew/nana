@@ -1,6 +1,61 @@
-MIT License
+Nana Commercial License
 
-Copyright (c) 2025 Areshk
+Copyright (c) 2026 Gustavo Ramirez (Areshk). All rights reserved.
+
+Nana, including its source code, binaries, documentation and other files
+(the "Software"), is proprietary. It is owned by Gustavo Ramirez, also known as
+Areshk (the "Owner"), and is licensed, not sold.
+
+1. License grant. If you obtained the Software from the Owner or from a
+   reseller the Owner has authorized, and paid any fee that applies, the Owner
+   grants you a non-exclusive, non-transferable license to install and use the
+   Software on devices you own or control, under the terms of your purchase.
+
+2. Restrictions. Unless the Owner agrees otherwise in writing, you may not:
+   (a) copy the Software, except as needed to install and use it and to keep
+       one backup copy;
+   (b) modify the Software or create works based on it;
+   (c) distribute, sublicense, sell, rent, lease, lend or otherwise make the
+       Software available to anyone else;
+   (d) reverse engineer, decompile or disassemble the Software, except where
+       applicable law permits it despite this restriction;
+   (e) remove or change any copyright notice or this license.
+
+3. Source code. Access to the source code does not give you a license to it.
+   Only people the Owner has authorized in writing may view, copy, modify or
+   build it, and only for the purpose the Owner has authorized.
+
+4. Third-party components. The Software includes components that others own
+   and license under their own terms. Those components are listed below and in
+   the notices shipped with the Software. Their own terms apply to them, and
+   nothing in this license limits the rights those terms give you.
+
+5. Ownership. The Owner keeps all rights not expressly granted in this
+   license.
+
+6. Termination. This license ends automatically if you break any of its
+   terms. You must then stop using the Software and delete every copy you have.
+
+7. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+8. Limitation of liability. TO THE EXTENT APPLICABLE LAW ALLOWS, IN NO EVENT
+   SHALL THE OWNER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+   IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For licensing, contact Gustavo Ramirez (Areshk): https://github.com/Areshkew
+
+-------------------------------------------------------------------------------
+
+Third-party notice: Muxy
+
+Portions of the Software are derived from Muxy
+(https://github.com/muxy-app/muxy), which is licensed under the MIT License:
+
+Copyright (c) 2026 Muxy
+Copyright (c) 2026 Nana contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
