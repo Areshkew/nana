@@ -15,8 +15,9 @@ source code is closed and is not published here.
 - Background sessions that keep running when the app is closed
 - Remote sessions on Linux and macOS computers over SSH
 - Split panes and tabs
-- Git: branches, changes, commits, pull requests, worktrees, and a review tab
-  for diffs, history, and stashes
+- Git: branches, changes, commits, pull requests, worktrees, and stashes
+- Code review: read the diffs your agents make, browse past commits, and check
+  every change before you commit, without leaving the terminal
 - Extensions
 - Mobile companion apps (iOS and Android)
 - AI coding agent integrations
