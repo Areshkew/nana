@@ -7,6 +7,8 @@
 <p align="center">A lightweight, memory-efficient terminal multiplexer for Windows.</p>
 <p align="center"><a href="https://nana.areshk.dev">Website</a> | <a href="https://nana.areshk.dev/docs">Docs</a> | <a href="https://github.com/Areshkew/nana/releases">Download</a> | <a href="https://github.com/Areshkew/nana/issues">Issues</a></p>
 
+<p align="center"><img src="assets/nana-splits.gif" alt="Nana splitting one window into eight coding agent panes" width="800"></p>
+
 This repository is where Nana is released and where you report problems. Nana's
 source code is closed and is not published here.
 
