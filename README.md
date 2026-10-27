@@ -5,7 +5,7 @@
 <h1 align="center">Nana</h1>
 
 <p align="center">A lightweight, memory-efficient terminal multiplexer for Windows.</p>
-<p align="center"><a href="https://github.com/Areshkew/nana/releases">Download</a> | <a href="https://github.com/Areshkew/nana/issues">Issues</a></p>
+<p align="center"><a href="https://nana.areshk.dev">Website</a> | <a href="https://nana.areshk.dev/docs">Docs</a> | <a href="https://github.com/Areshkew/nana/releases">Download</a> | <a href="https://github.com/Areshkew/nana/issues">Issues</a></p>
 
 This repository is where Nana is released and where you report problems. Nana's
 source code is closed and is not published here.
@@ -19,7 +19,7 @@ source code is closed and is not published here.
 - Code review: read the diffs your agents make, browse past commits, and check
   every change before you commit, without leaving the terminal
 - Extensions
-- Mobile companion apps (iOS and Android)
+- Mobile companion apps for iOS and Android (coming soon)
 - AI coding agent integrations
 - 490+ themes
 
